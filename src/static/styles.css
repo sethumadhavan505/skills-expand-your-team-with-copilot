@@ -32,6 +32,24 @@
   --info-light: #d1ecf1;
 }
 
+body[data-theme="dark"] {
+  color-scheme: dark;
+  --primary: #26365e;
+  --primary-light: #536b9d;
+  --primary-dark: #17213d;
+  --background: #151820;
+  --surface: #222630;
+  --text-primary: #e8eaf0;
+  --text-secondary: #b0b5c0;
+  --border: #3a404d;
+  --border-light: #303641;
+  --border-focus: #667084;
+  --success-light: #1d3524;
+  --warning-light: #3b321e;
+  --error-light: #3b2529;
+  --info-light: #20343a;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -52,7 +70,7 @@ body {
 
 header {
   text-align: center;
-  padding: 12px 0;
+  padding: 48px 0 12px;
   margin-bottom: 15px;
   background-color: var(--primary);
   color: var(--primary-text);
@@ -617,6 +635,8 @@ footer {
   position: absolute;
   top: 10px;
   right: 15px;
+  display: flex;
+  gap: 8px;
 }
 
 #user-status {
