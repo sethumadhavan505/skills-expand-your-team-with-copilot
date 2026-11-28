@@ -174,12 +174,12 @@ initial_activities = {
     },
     "Manga Maniacs": {
         "description": "Dive into epic quests, unforgettable heroes, and wild plot twists! Join Manga Maniacs to explore Japanese manga, swap favorites, and discover your next can't-put-it-down story.",
-        "schedule": "Tuesdays, 7:00 PM",
+        "schedule": "Tuesdays, 5:00 PM",
         "schedule_details": {
             "days": ["Tuesday"],
-            "start_time": "19:00"
+            "start_time": "17:00"
         },
-        "max_participants": 15,
+        "max_participants": 25,
         "participants": []
     }
 }
